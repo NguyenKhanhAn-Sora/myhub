@@ -1,9 +1,13 @@
-import React from 'react'
+import { Button, HStack } from "@chakra-ui/react";
+import React from "react";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <HStack>
+      <Button>Click me!</Button>
+      <Button>Click me!</Button>
+    </HStack>
+  );
+};
 
-export default App
+export default App;
